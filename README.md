@@ -13,6 +13,6 @@
 * [Дневник Тони](https://alexples.github.io/tony/)
 
 
-### Тестирование тегов
+### Тестирование 
 * [Тестирование @media ](https://alexples.github.io/media_css/)
 
