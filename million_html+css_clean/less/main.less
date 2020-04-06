@@ -1,0 +1,41 @@
+.center(@cn:center;) {
+	text-align: @cn;
+}
+@background: #6464cb;
+
+.header{
+	.center;
+	font-size:24px;
+	margin-top: 50px;
+	line-height:1.6em;
+
+	h1 span{
+		display:block;
+		font-weight:500;}
+	h1 strong{
+		text-transform:uppercase;
+		font-weight:600;}
+}
+
+.box{
+	.center(right);
+	margin: 60px 0px;
+	
+	.video, .form{
+		display:inline-block;
+		vertical-align:top;}
+}
+
+.form{
+	border:5px solid @background;
+	padding:20px;
+	margin-left: 30px;
+	input{
+		width:300px;
+		font-size:18px;
+		display:block;
+		margin-top:10px;
+		padding:17px;
+		border: 1px solid #9b9a9a;
+	}
+}
