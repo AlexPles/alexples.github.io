@@ -2,9 +2,9 @@
 
 ### Academ Verst
 
-* ["Мой первый сайт" чистый HTML+CSS](https://alexples.github.io/million_html+css_clean/)
+* [Чистый HTML+CSS](https://alexples.github.io/million_html+css_clean/)
 
-* ["Мой  первый сайт" Botstap](https://alexples.github.io/million_bootstap/)
+* [С помощью Botstap](https://alexples.github.io/million_bootstap/)
 
 ### "Изучаем HTML XHTML и CSS" Erick, Elizabet Phrimen
 
