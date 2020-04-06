@@ -2,4 +2,4 @@
 
 Academ Verst
 
-[million чистый HTML+CSS](https://alexples.github.io/million_html+css_clean/)
+["Мой первый сайт" чистый HTML+CSS](https://alexples.github.io/million_html+css_clean/)
