@@ -8,4 +8,4 @@ Academ Verst
 
 "Изучаем HTML XHTML и CSS" Erick, Elizabet Phrimen
 
-[Дневник Тони](http://alexplescreed.io/tony)
+[Дневник Тони](http://alexplescreed.io/tony/)
