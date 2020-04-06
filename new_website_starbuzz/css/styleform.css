@@ -1,0 +1,38 @@
+/*-----Head---------------------*/
+header.top{
+	color:#02273B;
+	text-align: center;
+	width:465px;
+	padding:10px;
+	margin:10px auto;}
+h2{margin:0;}
+/*-----Table--------------------*/
+form{
+	margin:10px auto;
+	display:table;
+	padding:10px;
+	background: #E9AA61 url(../images/background2.png);
+	}
+.tablerow{
+	display:table-row;
+	}
+div.tablerow p{
+	display:table-cell;
+	padding:3px;
+	vertical-align:top;}
+
+div.tablerow p:first-child{
+	text-align:right;}
+p.heading{
+	font-weight:bold;}
+textarea{
+	margin-top:5px;
+	width:280px;
+	height:80px;}
+
+/*-----Footer-----------------*/
+footer{
+	width:465px;
+	margin:10px auto;
+	padding:10px;
+}

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Starbuzz Bean Machine</title>
+	<link rel="stylesheet" href="../css/style.css">
+	<link rel="stylesheet" href="../css/styleform.css">
+</head>
+<body>
+	<header class="top">
+		<h1>Starbuzz Bean Machine</h1>
+		<h2>Зполните следующую форму и нажмите кнопку "Заказать сейчас", что бы оформить заказ</h2>
+	</header>
+	
+	<form action="http://starbuzzcoffee.com/processorder.php" method="post">
+		<div class="tablerow">
+			<p>Выберете кофе:</p>
+			<p>
+				<select id="beans" name="beans">
+					<option value="Смесь">Домашняя смесь</option>
+					<option value="Боливия">Боливия</option>
+					<option value="Гватемала">Гватемала</option>
+					<option value="Кения">Кения</option>
+				</select> 	
+			</p><
+		</div>
+
+		<div class="tablerow">	
+			<p>Тип:</p>
+			<p>
+				<input type="radio" name="beantype" value="Зерна" id="grains_beantype">
+				<label for="grains_beantype">Кофе в зернаях</label>
+				<input type="radio" name="beantype" checked value="молотый" id="ground_beantype">
+				<label for="ground_beantype">Молотый кофе</label>
+			</p>
+				
+		</div>
+		
+		<div class="tablerow">	
+				<p>Колличество пакетиков:</p>
+				<p><input type="number" name="bags" min="1" max="10" placeholder="1-10" required></p>
+		</div>
+			
+		<div class="tablerow">
+				<p>Доставить к указанной дате:</p>
+				<p><input type="date" name="date"></p>
+		</div>
+
+		<div class="tablerow">
+				<p>Дополнительные услуги:</p>
+				<p>
+					<input type="checkbox" name="extras[]" value="подарочная упаковка" id="extras[]_present">
+					<label for="extras[]_present">Подарочная упаковка</label><br>
+					<input type="checkbox" name="extras[]" value="каталог" id="extras[]_catalog">
+					<label for="extras[]_catalog">Доставка каталога вместе с заказом</label>
+				</p>
+		</div>
+		
+		<div class="tablerow">
+				<p class="heading">Доставить по адресу:</p>
+				<p></p>
+		</div>
+
+		<div class="tablerow">
+				<p>Имя:</p>
+				<p><input type="text" name="name" required></p>
+		</div>
+
+		<div class="tablerow">
+				<p>Адрес:</p>
+				<p><input type="text" name="adress" required></p>
+		</div>
+
+		<div class="tablerow">
+				<p>Город:</p>
+				<p><input type="text" name="сity" required></p>
+		</div>
+
+		<div class="tablerow">
+				<p>Страна:</p>
+				<p><input type="text" name="state" required></p>
+		</div>
+
+		<div class="tablerow">
+				<p>Почтовый индекс:</p>
+				<p><input type="text" name="zip" reuuired></p>
+		</div>
+
+		<div class="tablerow">
+				<p>Телефон:</p>
+				<p><input type="tel" name="phone" required></p>
+		</div>
+
+		<div class="tablerow">
+				<p>Комментарии клиентов:</p>
+				<textarea name="comments"></textarea>
+		</div>
+
+		<div class="tablerow">	
+			<p></p>
+			<p><input type="submit" value="Заказать сейчас"></p>
+		</div>
+	</form>	
+
+	<footer>
+			&copy; 2020, Кафе Starbuzz<br>Все торговые марки, которые появляются на данном сайте, являютя собственностью их владельцев.
+		</footer>	
+</body>
+</html>
