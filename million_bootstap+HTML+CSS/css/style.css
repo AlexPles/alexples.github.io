@@ -1,0 +1,42 @@
+.container{
+	font:22px Tahoma,sans-serif;}
+
+.header{
+	margin:50px 0px;}
+
+.form{
+	border:5px solid #6464cb;
+	padding:25px;}
+.form p{
+	margin-bottom:25px;
+	font-weight:600;}
+
+div.video{
+	margin-bottom: 30px;
+}
+
+.button{
+	background-color:#6464cb;
+	border:none;}
+.button:hover{
+	background-color:#6464cb;
+	border:none;}
+.button:focus{
+	background-color:#6464cb;
+	border:none;}
+.button:active{
+	background-color:#6464cb;
+	border:none;}
+
+.box-3 p{
+	font-weight:600; 
+
+.box-4 p{
+ 	padding:0px 25px;}
+
+ .box-5{
+ 	margin:50px 0px;}
+.box-4 div{
+	margin-top:50px;
+}
+
