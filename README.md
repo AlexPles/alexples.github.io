@@ -7,3 +7,5 @@ Academ Verst
 ["Мой  первый сайт" Botstap](http://alexples.github.io/million_bootstap/)
 
 "Изучаем HTML XHTML и CSS" Erick, Elizabet Phrimen
+
+[Дневник Тони](http://alexplescreed.io/tony)
