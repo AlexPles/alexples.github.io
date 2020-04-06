@@ -8,6 +8,6 @@ Academ Verst
 
 "Изучаем HTML XHTML и CSS" Erick, Elizabet Phrimen
 
-[StarBuzz](https://alexples.github.io/new_website_starbuzz/html/blog.html)
+[StarBuzz](https://alexples.github.io/new_website_starbuzz/html/)
 
 [Дневник Тони](https://alexples.github.io/tony/)
