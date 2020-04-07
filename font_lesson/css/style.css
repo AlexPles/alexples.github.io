@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+@font-face {
+    font-family: 'Press Start 2P';
+  src: url('../font/PressStart2P-Regular.eot');
+    src: url('../font/PressStart2P-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../font/PressStart2P-Regular.woff2') format('woff2'),
+        url('../font/PressStart2P-Regular.woff') format('woff'),
+        url('../font/PressStart2P-Regular.ttf') format('truetype'),
+        url('../font/PressStart2P-Regular.svg#PressStart2P-Regular') format('svg');
+   }
+
+body{
+	margin:0;
+	padding: 20px 60px;
+	
+}
+
+p{
+	margin: 0px;
+	font-size: 30px;
+	line-height: 3;
+}
+
+.font-1{
+ font-family: Lobster, cursive;
+}
+.font-2{
+ font-family: Pacifico, cursive;
+}
+
+.font-3{
+ font-family: "Press Start 2P", cursive;
+}
