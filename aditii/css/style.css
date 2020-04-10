@@ -1,0 +1,68 @@
+*{box-sizing: border-box;}
+body{margin: 0;}
+h1, h2, h3, h4, p{margin: 0; padding: 0;} 
+/* ------Header----------- */
+.head{
+    width: 1024px;
+    margin: 0px auto;
+    height: 83px;
+    display: table;
+    text-align: center;}
+
+.logo{
+    display: table-cell;
+    vertical-align: top;
+    padding-top: 10px;}
+.logo h1{
+    font: 49px Lobster;
+    color: #3cc3b5;}
+
+.input{
+    display: table-cell;
+    vertical-align: top;
+    padding-top: 25px;}
+.input input[type="text"]{
+    font: 21px "Open Sans";
+    color: #A1A1A1;
+    border: 1px solid #bbb;
+    outline: none;
+    width: 438px;
+    padding: 5px;}
+.input input:focus{
+    border: 1px solid #4CCFC1;
+    box-shadow: 0px 0px 3px #4CCFC1;}
+
+.basket{
+    display: table-cell;
+    vertical-align: top;
+    padding-top: 20px;}
+
+.logo300{
+    display: table-cell;
+    vertical-align: top;
+    padding-top: 20px;}
+.logo300 p{
+    font: 33px "Bebas Neue";
+    color: #A1A1A1;
+    margin-right: 15px;}
+/* ------Navigation------- */
+.navBackgr{background-color: #4CCFC1; }
+.nav{
+    background-color: #4CCFC1; 
+    width: 1024px;
+    margin: 5px auto 0px auto;}
+.conteinerNav{
+    margin: 0px auto;
+    text-align: center;
+    padding: 5px 0px;
+}
+.nav a{
+    display: inline-block;
+    text-decoration: none;
+    font: 21px "Bebas Neue";
+    color: #fff;
+    border-right: 1px solid #fff;
+    padding: 0px 20px
+}
+.nav a:last-child{border-right: none;}
+.nav a:hover{text-decoration: underline;}
