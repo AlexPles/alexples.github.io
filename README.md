@@ -19,5 +19,5 @@
 
 
 ### Верста макетов
-*[Aditii](https://alexples.github.io/aditii)
+* [Aditii](https://alexples.github.io/aditii)
 
