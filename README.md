@@ -17,3 +17,7 @@
 * [Тестирование @media ](https://alexples.github.io/media_css/)
 * [Добавление шрифтов](https://alexples.github.io/font_lesson/)
 
+
+###Верста макетов
+*[Aditii](https://alexples.github.io/aditii)
+
