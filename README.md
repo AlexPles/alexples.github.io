@@ -18,6 +18,6 @@
 * [Добавление шрифтов](https://alexples.github.io/font_lesson/)
 
 
-###Верста макетов
+### Верста макетов
 *[Aditii](https://alexples.github.io/aditii)
 
