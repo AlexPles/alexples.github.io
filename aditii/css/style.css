@@ -66,3 +66,47 @@ h1, h2, h3, h4, p{margin: 0; padding: 0;}
 }
 .nav a:last-child{border-right: none;}
 .nav a:hover{text-decoration: underline;}
+
+/*-----------Section 1----------- */
+.section1Backgr{
+    background-color: #3CC5B5;}
+.section1{
+    background-color: #3CC5B5;
+    width: 1024px;
+    margin: 0px auto;
+    padding: 60px 70px 60px 70px;
+}
+.prodSection1{
+    display: inline-block;
+    vertical-align: top;
+}
+.prodDescr{
+    display: inline-block;
+    width: 415px;
+    vertical-align: top;
+    color: #fff;
+    margin-left: 95px;
+}
+.prodDescr h2{
+    font: 61px "Bebas Neue";
+    line-height: 0.85;
+    padding-right: 60px;
+}
+.prodDescr p{
+    font: 17px "Open Sans";
+    line-height: 1.7;
+    margin-top: 15px;
+    width: 405px}
+.prodDescr input{
+    margin-top: 33px;
+    background-color: #3BC0B8;
+    border: 3px solid #fff;
+    font: 27px "Bebas Neue";
+    color: #fff;
+    padding: 5px 35px;
+    border-radius:11px;
+    outline: none;}
+.prodDescr input:active{
+    box-shadow: inset 0px 0px 5px #2a8883;
+    background-color: #39b4ac;
+    color: #eee;}
