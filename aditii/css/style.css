@@ -110,3 +110,56 @@ h1, h2, h3, h4, p{margin: 0; padding: 0;}
     box-shadow: inset 0px 0px 5px #2a8883;
     background-color: #39b4ac;
     color: #eee;}
+
+/*----------Section2--------------*/
+.section2{
+        width: 1024px;
+        text-align: center;
+        margin: 0px auto;}
+.section2 div{
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;}
+.prodDescrSec2 h2{
+    font: 27px "Bebas Neue";
+    color:#AFAFAF; 
+    width: 85px;
+    line-height: 0.9;
+    margin: 20px 0px;}
+.prodDescrSec2 input{
+    outline: none;
+    font: 19px "Bebas Neue";
+    background-color: #3CC395;
+    color: #fff;
+    border: none;
+    padding: 5px 13px;
+    border-radius:5px;}
+.prodDescrSec2 input:active{
+        box-shadow: inset 0px 0px 5px #2b9270;
+        color: #eee;}
+
+.boxLeft, .boxCenter, .boxRight{
+    padding: 20px 25px 20px 25px;}
+.boxCenter{
+    border-left: 1px solid #eee;
+    border-right: 1px solid #eee;}
+
+/*------Features-------------*/
+.featured{
+    background-color: #3AC5B5;
+    color: #fff;
+    
+}
+.featured p{
+    font: 31px "Bebas Neue";
+    width: 1024px;
+    margin: 0px auto;
+    background-color: #3AC5B5;
+    padding: 14px 0px 14px 58px
+}
+
+
+
+
+   
+
