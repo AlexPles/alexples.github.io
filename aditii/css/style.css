@@ -22,7 +22,7 @@ h1, h2, h3, h4, p{margin: 0; padding: 0;}
     vertical-align: top;
     padding-top: 25px;}
 .input input[type="text"]{
-    font: 21px "Open Sans";
+    font: 21px "Open Sans", sans-serif;
     color: #A1A1A1;
     border: 1px solid #bbb;
     outline: none;
@@ -42,7 +42,7 @@ h1, h2, h3, h4, p{margin: 0; padding: 0;}
     vertical-align: top;
     padding-top: 20px;}
 .logo300 p{
-    font: 33px "Bebas Neue";
+    font: 33px "Bebas Neue", sans-serif;
     color: #A1A1A1;
     margin-right: 15px;}
 /* ------Navigation------- */
@@ -59,7 +59,7 @@ h1, h2, h3, h4, p{margin: 0; padding: 0;}
 .nav a{
     display: inline-block;
     text-decoration: none;
-    font: 21px "Bebas Neue";
+    font: 21px "Bebas Neue", sans-serif;
     color: #fff;
     border-right: 1px solid #fff;
     padding: 0px 20px
@@ -93,7 +93,7 @@ h1, h2, h3, h4, p{margin: 0; padding: 0;}
     padding-right: 60px;
 }
 .prodDescr p{
-    font: 17px "Open Sans";
+    font: 17px "Open Sans", sans-serif;
     line-height: 1.7;
     margin-top: 15px;
     width: 405px}
@@ -121,7 +121,7 @@ h1, h2, h3, h4, p{margin: 0; padding: 0;}
     vertical-align: top;
     text-align: left;}
 .prodDescrSec2 h2{
-    font: 27px "Bebas Neue";
+    font: 27px "Bebas Neue", sans-serif;
     color:#AFAFAF; 
     width: 85px;
     line-height: 0.9;
@@ -132,10 +132,11 @@ h1, h2, h3, h4, p{margin: 0; padding: 0;}
     background-color: #3CC395;
     color: #fff;
     border: none;
-    padding: 5px 13px;
+    padding: 5px 10px;
     border-radius:5px;}
 .prodDescrSec2 input:active{
         box-shadow: inset 0px 0px 5px #2b9270;
+        background-color: #35af86;
         color: #eee;}
 
 .boxLeft, .boxCenter, .boxRight{
@@ -147,16 +148,58 @@ h1, h2, h3, h4, p{margin: 0; padding: 0;}
 /*------Features-------------*/
 .featured{
     background-color: #3AC5B5;
-    color: #fff;
-    
-}
+    color: #fff;}
 .featured p{
     font: 31px "Bebas Neue";
     width: 1024px;
     margin: 0px auto;
     background-color: #3AC5B5;
-    padding: 14px 0px 14px 58px
+    padding: 14px 0px 14px 63px}
+
+/*-----------Section3---------*/
+
+.section3{
+    width: 1024px;
+    margin: 0px auto;
+    text-align: center;}
+
+.speaker1, .speaker2, .speaker3 {
+    display: inline-block;
+    vertical-align: top;
 }
+
+.boxTop, .boxBottom{
+    border: 1px solid #ccc;
+    margin:50px 30px 50px 30px;
+    padding: 30px;
+    border-bottom: 5px solid #3CC395;
+}
+.prodDescrSec3{
+    width: 145px;
+   margin: 0px auto;
+}
+.prodDescrSec3 p{
+    font: 27px "Bebas Neue", sans-serif;
+    color:#AFAFAF; 
+    text-align: left;
+   
+    text-align: center;
+}
+.prodDescrSec3 input{
+    outline: none;
+    font: 19px "Bebas Neue", sans-serif;
+    background-color: #3CC395;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius:5px;
+    vertical-align: 3px;
+}
+.prodDescrSec3 input:active{
+    box-shadow: inset 0px 0px 5px #2b9270;
+    background-color: #35af86;
+    color: #eee;}
+
 
 
 
