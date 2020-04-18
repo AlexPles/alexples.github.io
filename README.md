@@ -1,5 +1,9 @@
 # Alex Ples
 
+### Верста макетов
+
+* [Aditii](https://alexples.github.io/aditii)
+
 ### Academ Verst
 
 * [Чистый HTML+CSS](https://alexples.github.io/million_html+css_clean/)
@@ -10,14 +14,11 @@
 
 * [StarBuzz](https://alexples.github.io/new_website_starbuzz/)
 
-* [Дневник Тони](https://alexples.github.io/tony/)
 
 
-### Тестирование 
-* [Тестирование @media ](https://alexples.github.io/media_css/)
-* [Добавление шрифтов](https://alexples.github.io/font_lesson/)
 
 
-### Верста макетов
-* [Aditii](https://alexples.github.io/aditii)
+
+
+
 
