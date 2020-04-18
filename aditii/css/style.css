@@ -1,24 +1,35 @@
 *{box-sizing: border-box;}
-body{margin: 0;}
+body{
+    margin: 0; 
+    background-color: #3CC5B5;
+    width: 100%;
+}
 h1, h2, h3, h4, p{margin: 0; padding: 0;} 
+
+
 /*--------------------------Header-----------------------*/
+
+
+.headerBacgr{
+    background-color: #fff;
+    padding-bottom: 10px;}
 .head{
     width: 1024px;
-    margin: 0px auto 10px auto;
+    margin: 0px auto;
     height: 83px;
     display: table;
     text-align: center;}
 .logo{
-    display: table-cell;
+    display: inline-block;
     vertical-align: top;
-    padding-top: 10px;}
+    padding: 10px 0px 0px 0px;}
 .logo h1{
     font: 49px Lobster;
     color: #3cc3b5;}
 .input{
-    display: table-cell;
+    display: inline-block;
     vertical-align: top;
-    padding-top: 25px;}
+    padding: 25px 160px 0px 160px;}
 .input input[type="text"]{
     font: 21px "Open Sans", sans-serif;
     color: #A1A1A1;
@@ -29,12 +40,9 @@ h1, h2, h3, h4, p{margin: 0; padding: 0;}
 .input input:focus{
     border: 1px solid #4CCFC1;
     box-shadow: 0px 0px 3px #4CCFC1;}
-.basket{
-    display: table-cell;
-    vertical-align: top;
-    padding-top: 20px;}
+
 .logo300{
-    display: table-cell;
+    display: inline-block;
     vertical-align: top;
     padding-top: 20px;}
 .logo300 img{
@@ -42,18 +50,23 @@ h1, h2, h3, h4, p{margin: 0; padding: 0;}
 }
 .logo300 p{
     font: 33px "Bebas Neue", sans-serif;
-    color: #A1A1A1;
-    }
+    color: #A1A1A1;}
+
+
 /*--------------------------Navigation-----------------------*/
+
+
 .nav{
     background-color: #4CCFC1; 
-    margin: 0px auto 0px auto;}
+    margin: 0px auto 0px auto;
+    box-shadow: 0px 10px 10px #41b1a5;}
+
 .conteinerNav{
-    background-color: #4CCFC1;
     width: 1024px;
     margin: 0px auto;
     text-align: center;
     padding: 5px 0px;}
+
 .nav a{
     display: inline-block;
     text-decoration: none;
@@ -61,34 +74,41 @@ h1, h2, h3, h4, p{margin: 0; padding: 0;}
     color: #fff;
     border-right: 1px solid #fff;
     padding: 0px 20px}
+
 .nav a:last-child{border-right: none;}
 .nav a:hover{text-decoration: underline;}
+
+
 /*--------------------------Section1-----------------------*/
-.section1Backgr{
-    background-color: #3CC5B5;}
+
+
 .section1{
-    background-color: #3CC5B5;
     width: 1024px;
     margin: 0px auto;
     padding: 60px 70px 60px 70px;}
+
 .prodSection1{
     display: inline-block;
     vertical-align: top;}
+
 .prodDescr{
     display: inline-block;
     width: 415px;
     vertical-align: top;
     color: #fff;
     margin-left: 95px;}
+
 .prodDescr h2{
     font: 61px "Bebas Neue";
     line-height: 0.85;
     padding-right: 60px;}
+
 .prodDescr p{
     font: 17px "Open Sans", sans-serif;
     line-height: 1.7;
     margin-top: 15px;
     width: 405px}
+
 .prodDescr input{
     margin-top: 33px;
     background-color: #3BC0B8;
@@ -98,25 +118,34 @@ h1, h2, h3, h4, p{margin: 0; padding: 0;}
     padding: 5px 35px;
     border-radius:11px;
     outline: none;}
+
 .prodDescr input:active{
     box-shadow: inset 0px 0px 5px #2a8883;
     background-color: #39b4ac;
     color: #eee;}
+
 /*--------------------------Section2-----------------------*/
+.section2Backgr{
+    background-color: #fff;
+    box-shadow: 0px 10px 10px #41b1a5;
+}
 .section2{
         width: 1024px;
         text-align: center;
         margin: 0px auto;}
+
 .section2 div{
     display: inline-block;
     vertical-align: top;
     text-align: left;}
+
 .prodDescrSec2 h2{
     font: 27px "Bebas Neue", sans-serif;
     color:#AFAFAF; 
     width: 85px;
     line-height: 0.9;
     margin: 20px 0px;}
+
 .prodDescrSec2 input{
     outline: none;
     font: 19px "Bebas Neue";
@@ -125,46 +154,62 @@ h1, h2, h3, h4, p{margin: 0; padding: 0;}
     border: none;
     padding: 5px 10px;
     border-radius:5px;}
+
 .prodDescrSec2 input:active{
     box-shadow: inset 0px 0px 5px #2b9270;
     background-color: #35af86;
     color: #eee;}
+
 .boxLeft, .boxCenter, .boxRight{
     padding: 20px 25px 20px 25px;}
+
 .boxCenter{
     border-left: 1px solid #eee;
     border-right: 1px solid #eee;}
+
+
 /*--------------------------Features-----------------------*/
-.featured{
-    background-color: #3AC5B5;}
+
+
 .featured p{
     color: #fff;
     font: 31px "Bebas Neue";
     width: 1024px;
     margin: 0px auto;
-    background-color: #3AC5B5;
     padding: 14px 0px 14px 63px}
+
+
 /*--------------------------Section3-----------------------*/
+
+
+.section3Backgr{
+    background-color: #fff;
+}
 .section3{
     width: 1024px;
     margin: 0px auto;
     text-align: center;}
+
 .speaker1, .speaker2, .speaker3 {
     display: inline-block;
     vertical-align: top;}
+
 .boxTop, .boxBottom{
     border: 1px solid #ccc;
     margin:50px 30px 50px 30px;
     padding: 30px;
     border-bottom: 5px solid #3CC395;}
+
 .prodDescrSec3{
     width: 145px;
    margin: 0px auto;}
+
 .prodDescrSec3 p{
     font: 27px "Bebas Neue", sans-serif;
     color:#AFAFAF; 
     text-align: left;
     text-align: center;}
+
 .prodDescrSec3 input{
     outline: none;
     font: 19px "Bebas Neue", sans-serif;
@@ -174,40 +219,57 @@ h1, h2, h3, h4, p{margin: 0; padding: 0;}
     padding: 5px 10px;
     border-radius:5px;
     vertical-align: 3px;}
+
 .prodDescrSec3 input:active{
     box-shadow: inset 0px 0px 5px #2b9270;
     background-color: #35af86;
     color: #eee;}
+
+
 /*--------------------------Section4-----------------------*/
-.section4Bacgr{background-color:#3CC3B5;}
+
+
 .section4{
-    background-color:#3CC3B5;
     text-align: center;
     margin: 0px auto;
     width: 1024px;}
+
 .cell{
     display: inline-block;
     margin: 40px 60px;
     text-align: left;}
+
 .cell h2{
     font: 27px "Bebas Neue", sans-serif;
     color: #fff;
     line-height: 2;}
+
 .cell p{
     font: 15px "Open Sans", sans-serif;
     color: #fff;
     line-height: 2;}
+
+
 /*--------------------------Footer-----------------------*/
-.footer{background-color: #2DA89B;}
+
+
+.footer{
+    background-color: #2DA89B;}
+
 .footer p{
     font: 15px "Open Sans", sans-serif;
     color: #fff;
     text-align: center;
-    background-color: #2DA89B;
     width: 1024px;
     margin: 0px auto;
     padding: 15px 0;}
 
 
-   
+
+
+@media screen and (max-device-width: 1024px){
+/*--------------------------Header-----------------------*/
+.headerBacgr, .nav, .section2Backgr, .section3Backgr, .footer{
+    width: 1024px;}
+}
 
