@@ -1,6 +1,6 @@
 # Alex Ples
 
-### Верста макетов
+### Верстка макетов
 
 * [Aditii](https://alexples.github.io/aditii)
 
