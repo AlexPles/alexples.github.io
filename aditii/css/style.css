@@ -4,7 +4,7 @@ h1, h2, h3, h4, p{margin: 0; padding: 0;}
 /*--------------------------Header-----------------------*/
 .head{
     width: 1024px;
-    margin: 0px auto;
+    margin: 0px auto 10px auto;
     height: 83px;
     display: table;
     text-align: center;}
@@ -47,7 +47,7 @@ h1, h2, h3, h4, p{margin: 0; padding: 0;}
 /*--------------------------Navigation-----------------------*/
 .nav{
     background-color: #4CCFC1; 
-    margin: 5px auto 0px auto;}
+    margin: 0px auto 0px auto;}
 .conteinerNav{
     background-color: #4CCFC1;
     width: 1024px;
@@ -198,9 +198,7 @@ h1, h2, h3, h4, p{margin: 0; padding: 0;}
     color: #fff;
     line-height: 2;}
 /*--------------------------Footer-----------------------*/
-.footer{
-    background-color: #2DA89B;
-}
+.footer{background-color: #2DA89B;}
 .footer p{
     font: 15px "Open Sans", sans-serif;
     color: #fff;
@@ -208,8 +206,7 @@ h1, h2, h3, h4, p{margin: 0; padding: 0;}
     background-color: #2DA89B;
     width: 1024px;
     margin: 0px auto;
-    padding: 15px 0;
-}
+    padding: 15px 0;}
 
 
    
