@@ -14,6 +14,10 @@
 
 * [StarBuzz](https://alexples.github.io/new_website_starbuzz/)
 
+### "Изучаем программирование на HTML5" Erick, Elizabet Phrimen
+
+* [My Loc](https://alexples.github.io/myLoc/)
+
 
 
 
