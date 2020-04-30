@@ -1,0 +1,144 @@
+/*----------Fonts----------*/
+@font-face {
+    font-family: 'Proxima Nova Bold';
+    src: url('../font/.eot');
+    src: local('../font/Proxima Nova Bold'), local('ProximaNova-Bold'),
+        url('../font/ProximaNova-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../font/ProximaNova-Bold.woff2') format('woff2'),
+        url('../font/ProximaNova-Bold.woff') format('woff'),
+        url('../font/ProximaNova-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Proxima Nova Rg';
+    src: url('../font/ProximaNova-Regular.eot');
+    src: local('../font/Proxima Nova Regular'), local('ProximaNova-Regular'),
+        url('../font/ProximaNova-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../font/ProximaNova-Regular.woff2') format('woff2'),
+        url('../font/ProximaNova-Regular.woff') format('woff'),
+        url('../font/ProximaNova-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@ProxNovBold: 'Proxima Nova Bold', sans-serif;
+@ProxNovReg: 'Proxima Nova Rg', sans-serif;
+
+/*----------Colors----------*/
+@logo: #00B700;
+@btn: #FFB500;
+@font: #000;
+@fontBtn: #fff; 
+@borderColor: #999;
+
+/*----------Base----------*/
+button{
+    background-color: @btn;
+    color: @fontBtn;
+    border: none;
+    padding: 10px 0px;
+    text-transform: uppercase;
+    border-radius: 8px;
+    font-size: 1.3rem;
+}
+html{
+   font-size: 10px;
+}
+
+.row{
+    padding: 35px 0px;
+}
+
+/*----------Header1----------*/
+body{
+    background: url(../img/bgMain.jpg) center repeat-y;
+}
+.phon-head{
+    text-decoration: none;
+    color: @font;
+    height: 70px;
+    display: inline-block;
+    line-height: 70px;
+    font-size: 2.2rem;
+    font-family: @ProxNovBold;
+}
+.wrap{
+    display: table;
+    width: 100%;
+    height: 70px;
+    .wrapCell{
+        display: table-cell;
+        vertical-align: middle;
+        .buttonHead{
+            width: 100%;
+        }
+    }
+}
+
+/*----------Header2----------*/
+.section2{
+    
+    h1{
+        text-transform: uppercase;
+        font-size: 4rem;
+        font-family: @ProxNovBold;
+    }
+    p{
+        font-size: 2.5rem;
+        font-family: @ProxNovReg;
+        margin-top: 25px;
+    }
+    span{
+        display: inline-block;
+        font-size: 1.8rem;
+        font-family: @ProxNovReg;
+        color: @fontBtn;
+        text-align: center;
+        background-color: @logo;
+        padding: 25px 45px;
+        margin-top: 30px;
+    }
+    p:last-of-type{
+        font-family: @ProxNovBold;
+        text-transform: uppercase;
+        margin-top: 25px;
+    }
+} 
+.formHeader{
+    padding: 40px 30px 20px 30px;
+    background-color: @fontBtn;
+    h2{
+        font-size: 2rem;
+        font-family: @ProxNovReg;
+        text-align: center;
+        margin-bottom: 20px ;
+    }
+    .textInp{
+        position: absolute;
+        font-size: 1.5rem;
+        font-family: @ProxNovReg;
+        text-align: center;
+        left: 50%;
+        transform: translateX(-50%) translateY(-120%);
+        background-color: @fontBtn;
+        padding: 0px 5px;
+    }
+    input{
+        width: 100%;
+        margin: 10px 0px;
+        padding: 10px;
+        border-radius: 8px;
+        border: 1px solid @borderColor;
+    }
+    button{
+        width: 100%;
+        margin-top: 10px;
+    }
+    p{
+        font-size: 1rem;
+        font-family: @ProxNovReg;
+        text-align: center;
+    }
+}
+
+

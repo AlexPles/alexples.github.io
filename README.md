@@ -10,6 +10,8 @@
 
 * [С помощью Botstap](https://alexples.github.io/million_bootstap/)
 
+* ["Гипсолит" с помощью Botstap](https://alexples.github.io/gipsolit/)
+
 ### "Изучаем HTML XHTML и CSS" Erick, Elizabet Phrimen
 
 * [StarBuzz](https://alexples.github.io/new_website_starbuzz/)
