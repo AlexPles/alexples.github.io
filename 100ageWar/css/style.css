@@ -1,0 +1,253 @@
+/*----------Base----------*/
+
+body{
+    max-width: 1200px;
+    min-width: 300px;
+    width: 100%;
+    margin: 0px auto;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.5em;
+    border-left: 1px solid #A7D7F9;
+    border-right: 1px solid #A7D7F9;
+    padding: 0px 30px 20px 30px;
+    background: url(../img/bgImg.jpg) center bottom no-repeat;
+    background-attachment: fixed;
+}
+h1{
+    border-bottom: 1px solid #999;
+    font-family: Georgia, sans-serif;
+    font-weight: normal;
+    padding-bottom: 10px;
+    margin: 30px 0px 0px 0px 
+}
+p{
+    margin: 8px 0;
+}
+ul{
+    margin: 0;
+    padding-left: 25px;
+}
+a{
+    text-decoration: none;
+    color: #085ca5;
+}
+a:hover{
+    text-decoration: underline;
+}
+ol{
+    margin: 0;
+    padding-left: 20px;
+}
+.fran{
+    font-style: italic;
+}
+
+.title_h2{
+    border-bottom: 1px solid #999;
+    font-family: Georgia, sans-serif;
+    font-weight: normal;
+    padding-bottom: 10px;
+    margin: 30px 0px 0px 0px 
+}
+
+/*----------Section_R----------*/
+
+.section_R{
+    float: right;
+    border: 1px solid #999;
+    max-width: 300px;
+    padding: 5px;
+    margin: 8px 0px 20px 20px;
+    font-size: 13px;
+    line-height: 1.3;
+    background-color: rgba(248, 249, 250, 0.445);
+}
+.section_R img{
+    margin-top: 5px;
+    width: 100%;
+}
+.section_R h2{
+    font-size: 15px;
+    background-color: rgb(174, 206, 252);
+    text-align: center;
+    margin: 0;
+}
+.section_R p{
+    text-align: center;
+    margin: 0;
+    border-bottom: 1px solid #999;
+    font-style: italic;
+    padding-bottom: 5px;
+}
+
+.section_R_table1 td:first-child{
+    font-weight: 600;
+    vertical-align: top;
+    line-height: 1.5;
+}
+.section_R_table2{
+    margin-top: 5px;
+    display: table;
+}
+.secton_R_row{
+    display: table-row;
+}
+.section_R_cell{
+    display: table-cell;
+    vertical-align: top;
+    line-height: 1.2;
+    padding: 5px;
+    border-collapse: collapse;
+}
+.section_R_cell:first-child{
+    border-right: 1px solid #999;
+}
+.section_R_cell a{
+    display: block;
+}
+/*----------Section_R Icon----------*/
+
+#england::before{
+    content: url(../img/england.png);
+    vertical-align: -10px;
+    margin-right: 5px;
+}
+
+#portugal::before{
+    content: url(../img/portugal.png);
+    vertical-align: -10px;
+    margin-right: 5px;
+}
+#navarre::before{
+    content: url(../img/navarre.png);
+    vertical-align: -10px;
+    margin-right: 5px;
+}
+#aquitaine::before{
+    content: url(../img/aquitaine.png);
+    vertical-align: -10px;
+    margin-right: 5px;
+}
+#bourgogne::before{
+    content: url(../img/bourgogne.png);
+    vertical-align: -10px;
+    margin-right: 5px;
+}
+
+
+#luxemburgi::before{
+    content: url(../img/luxemburgi.png);
+    vertical-align: -10px;
+    margin-right: 5px;
+}
+#flandre::before{
+    content: url(../img/flandre.png);
+    vertical-align: -10px;
+    margin-right: 5px;
+}
+#hainaut::before{
+    content: url(../img/hainaut.png);
+    vertical-align: -10px;
+    margin-right: 5px;
+}
+.bretagne::before{
+    content: url(../img/bretagne.png);
+    vertical-align: -10px;
+    margin-right: 5px;
+}
+#france::before{
+    content: url(../img/france.png);
+    vertical-align: -10px;
+    margin-right: 5px;
+}
+#aragon::before{
+    content: url(../img/aragon.png);
+    vertical-align: -10px;
+    margin-right: 5px;
+}
+#castile::before{
+    content: url(../img/castile.png);
+    vertical-align: -10px;
+    margin-right: 5px;
+}
+#majorque::before{
+    content: url(../img/majorque.png);
+    vertical-align: -10px;
+    margin-right: 5px;
+}
+#scotland::before{
+    content: url(../img/scotland.png);
+    vertical-align: -10px;
+    margin-right: 5px;
+}
+#bohemia::before{
+    content: url(../img/bohemia.png);
+    vertical-align: -10px;
+    margin-right: 5px;
+}
+#genes::before{
+    content: url(../img/genes.png);
+    vertical-align: -10px;
+    margin-right: 5px;
+}
+#::before{
+    content: url(../img/.png);
+    vertical-align: -10px;
+    margin-right: 5px;
+}
+/*----------Nav----------*/
+
+nav{
+    display: inline-block;
+    border: 1px solid #999;
+    padding: 10px;
+    background-color: rgba(248, 249, 250, 0.445);
+    font-size: 13px;
+    vertical-align: top;
+}
+nav h2{
+    font-family: Arial, sans-serif;
+    font-weight: 600;
+    text-align: center;
+    font-size: 13px;
+    margin: 0;
+}
+
+nav li{
+    list-style-type: none;
+}
+nav ul{
+    counter-reset: list1;
+    padding-left: 0;
+}
+nav li::before{
+    counter-increment: list1;
+    content: counter(list1);
+    margin-right: 10px;
+    color: #222222;
+}
+nav ul ul{
+    counter-reset: list2;
+    padding-left: 25px;
+}
+nav ul ul li::before{
+    counter-increment: list2;
+    content: counter(list1) "." counter(list2);
+    color: #222222;
+}
+
+/*----------Section_1----------*/
+
+.section_1 h2{
+    overflow: hidden;
+}
+
+/*----------Adaptive----------*/
+
+@media (max-width: 575px){
+    .section_R{
+        float: none;
+        margin: 20px auto;
+    }
+}

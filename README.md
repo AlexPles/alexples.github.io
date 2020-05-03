@@ -4,6 +4,8 @@
 
 * [Aditii](https://alexples.github.io/aditii)
 
+* [Cover Wikipedia.org](https://alexples.github.io/100ageWar)
+
 ### Academ Verst
 
 * [Чистый HTML+CSS](https://alexples.github.io/million_html+css_clean/)
